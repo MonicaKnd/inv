@@ -1,9 +1,20 @@
 body {
-    margin: o;
-    border: 10px solid rgb(29, 27, 27);
+    margin: 0;
+    /* border: 10px solid rgb(29, 27, 27); */
 }
 
 img {
     max-width: 100%;
     vertical-align: top;
+    /* display: none; */
+}
+
+#responsive {
+    display: none;
+}
+
+@media screen and (max-width: 768px) {
+    #responsive {
+        display: block;
+    } 
 }
